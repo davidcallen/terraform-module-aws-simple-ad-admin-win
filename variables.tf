@@ -290,7 +290,7 @@ variable "tags" {
 //  description = "VPC information. These are inputs to the VPC module github.com/terraform-aws-modules/terraform-aws-vpc.git"
 //  type = object({
 //    vpc_id                      = string # VPC cidr block. Must not overlap with other VPCs in this aws account or others within our organisation.
-//    cidr_block                  = string # List of VPC private subnet cidr blocks. Must not overlap with other VPCs in this aws account or others within our organisation.
+//    cidr_block                  = string # Must not overlap with other VPCs in this aws account or others within our organisation.
 //    private_subnets_cidr_blocks = list(string)
 //    private_subnets_ids         = list(string) # List of VPC public subnet cidr blocks. Must not overlap with other VPCs in this aws account or others within our organisation.
 //    public_subnets_cidr_blocks  = list(string)
